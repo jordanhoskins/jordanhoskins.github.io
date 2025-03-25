@@ -1,0 +1,159 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #121212; /* Dark background */
+  color: #fff; /* White text */
+  text-align: center;
+  line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+  background-color: #111; /* Dark background for header */
+  padding: 40px;
+  text-shadow: 0 0 10px #00ff99, 0 0 20px #ff00ff, 0 0 30px #ff00ff; /* Neon glow effect */
+}
+
+header h1 {
+  font-size: 3.5rem;
+  color: #ff00ff; /* Neon Pink */
+  letter-spacing: 3px;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #00ffff; /* Neon Blue */
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* About Section */
+#about {
+  margin: 40px 20px;
+}
+
+#about h2 {
+  font-size: 2.5rem;
+  color: #ff00ff; /* Neon Pink */
+  text-shadow: 0 0 10px #ff00ff;
+}
+
+#about p {
+  font-size: 1.2rem;
+  color: #f0f0f0; /* Light gray text */
+  line-height: 1.8;
+}
+
+/* Experience Section */
+#experience {
+  margin: 40px 20px;
+  background-color: #1e1e1e;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 0, 255, 0.5);
+}
+
+#experience h2 {
+  font-size: 2.5rem;
+  color: #ff00ff; /* Neon Pink */
+  margin-bottom: 20px;
+}
+
+.job h3 {
+  font-size: 2rem;
+  color: #00ff99; /* Neon Green */
+  margin-bottom: 5px;
+}
+
+.job p {
+  font-size: 1rem;
+  color: #ff00ff; /* Neon Pink */
+}
+
+.job ul {
+  list-style: none;
+  margin-top: 15px;
+}
+
+.job ul li {
+  font-size: 1.1rem;
+  color: #fff; /* White text */
+  margin-bottom: 10px;
+}
+
+/* Skills Section */
+#skills {
+  margin: 40px 20px;
+}
+
+#skills h2 {
+  font-size: 2.5rem;
+  color: #00ffff; /* Neon Blue */
+  text-shadow: 0 0 10px #00ffff;
+}
+
+#skills h3 {
+  font-size: 1.8rem;
+  color: #ff00ff; /* Neon Pink */
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  margin: 10px 0;
+}
+
+ul li {
+  font-size: 1.1rem;
+  color: #fff; /* White text */
+  margin-bottom: 10px;
+}
+
+/* Education Section */
+#education {
+  margin: 40px 20px;
+}
+
+#education .degree h3 {
+  font-size: 2rem;
+  color: #00ff99; /* Neon Green */
+  margin-bottom: 10px;
+}
+
+#education p {
+  font-size: 1.2rem;
+  color: #ff00ff; /* Neon Pink */
+  margin-bottom: 15px;
+}
+
+/* Footer Styling */
+footer {
+  background-color: #111;
+  color: #fff;
+  padding: 20px;
+  font-size: 1rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 -2px 5px rgba(0, 255, 255, 0.3);
+}
+
+footer a {
+  color: #00ffff; /* Neon Blue */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover {
+  color: #ff00ff; /* Neon Pink */
+  text-decoration: underline;
+}
