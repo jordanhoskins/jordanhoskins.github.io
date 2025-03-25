@@ -132,4 +132,32 @@ ul li {
   margin-bottom: 8px;
 }
 
-#
+#education p {
+  font-size: 1.1rem;
+  color: #ff00ff; /* Neon Pink */
+  margin-bottom: 10px;
+}
+
+/* Footer Styling */
+footer {
+  background-color: #111;
+  color: #fff;
+  padding: 15px;
+  font-size: 1rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 -2px 5px rgba(0, 255, 255, 0.3);
+}
+
+footer a {
+  color: #00ffff; /* Neon Blue */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover {
+  color: #ff00ff; /* Neon Pink */
+  text-decoration: underline;
+}
