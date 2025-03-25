@@ -48,7 +48,7 @@ header h1 {
 
 header p {
   font-size: 1.2rem;
-  color: #a0e0a0; /* Light green for the subheading */
+  color: #006600; /* Light green for the subheading */
   font-weight: bold;
   letter-spacing: 1px;
 }
@@ -60,7 +60,7 @@ header p {
 
 #about h2 {
   font-size: 2.2rem;
-  color: #006600; /* Forest Green for the section title */
+  color: #006600;
 }
 
 #about p {
