@@ -48,7 +48,7 @@ header h1 {
 
 header p {
   font-size: 1.2rem;
-  color: #006600; /* Light green for the subheading */
+  color: #fff;
   font-weight: bold;
   letter-spacing: 1px;
 }
@@ -60,7 +60,7 @@ header p {
 
 #about h2 {
   font-size: 2.2rem;
-  color: #006600;
+  color: #fff;
 }
 
 #about p {
@@ -71,10 +71,10 @@ header p {
 }
 
 #portfolio {
-  color: #006600
+  color: #fff;
 }
 
 /* Footer Styling */
 footer {
   background-color: #003300; /* Forest Green */
-  color
+}
